@@ -411,6 +411,8 @@ v2g_liberty:
   car_min_soc_in_percent: !secret car_min_soc_in_percent
   wallbox_host: !secret wallbox_host
   wallbox_port: !secret wallbox_port
+  wallbox_plus_car_roundtrip_efficiency: 0.85
+
 
   # The Wallbox Quasar needs processing time after a setting is done
   # This is a waiting time between the actions in milliseconds
